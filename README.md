@@ -40,7 +40,26 @@ Working as a team and pair programming, create a website using a third-party API
 Initial goal: a website to display Albums
 
 As a first instance, we created a website that when searching for an artist, it displays all the albums related to that search. This is the result of an axios request to deezer's API, using the search value as a query string.
-We then
+We then made an album show page where we displayed the album's cover, artist and duration. On click, you could also see the tracklist.
+
+
+```
+getData() {
+  axios.get('https://cors-anywhere.herokuapp.com/api.deezer.com/search/album', {
+    params: {
+      q: this.props.match.params.query
+    }
+  })
+    .then(res => {
+      console.log(res.data)
+      this.setState({ albums: res.data.data })
+    })
+}
+
+```
+As an extra feature we decided to add a small audio sample to each track, provided by Deezer's API.
+
+We decided to improve user experience, to have the audio tracklist on the same page as the album.
 
 
 
