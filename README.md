@@ -118,11 +118,13 @@ We also included a featured artist section on the homepage.
 ![Featured](/readme-images/featured-artists.png)
 
 ### Challenges
-It was one of my first times working with third-party APIs and it's sometimes difficult to understand some APIs' documentation. This contributed to our decision to use Deezer, as their documentation is simple and extremely user friendly.
+It was one of our first times working with third-party APIs and it's sometimes difficult to understand some APIs' documentation. This contributed to our decision to use Deezer, as their documentation is simple and extremely user friendly.
 
 ### Wins
 
 I learned a lot from pair programming as it allowed me to see other people's logic, and thought processes. We were all very new to programming and had different strengths, so we really complemented each other.
+
+My main takeaway from this project was the importance of continuous and open communication when working on a team, specially in pair programming as we were working on the same computer.
 
 
 ## Future features
